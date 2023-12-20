@@ -1,0 +1,51 @@
+#prd1{
+    text-align: center;
+    background-color: #ddd
+}
+
+
+
+h1{
+    font-weight: 700;
+}
+#img3{
+  
+  margin-left: 10px;
+}
+#img4{
+    margin-left: 10px;
+}
+
+.dropdown{
+    text-decoration: none;
+    list-style: none;
+    background-color: transparent;
+}
+.dropdown-item{
+    background: transparent;
+    opacity: 1;
+}
+.dropdown-item:hover{
+    font-weight: bolder;
+   color: blueviolet;
+   border:2px solid rgb(64, 23, 59);
+}
+
+.nav-link-dropdown-toggle{
+    text-decoration: none;
+    padding: 3px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: solid 2px black;
+    color: black;
+}
+
+
+
+
+
+
+
+#img7{
+width:150%
+}

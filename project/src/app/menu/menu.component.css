@@ -1,0 +1,30 @@
+ h2{
+    text-align: center;
+    font-family: serif;
+} 
+
+
+#img34,#img36{
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+}
+
+#img35{
+    width: auto;
+    height: 230px;
+    border-radius: 25px;
+}
+
+.parent{
+    display: flex;
+}
+
+.cappuccino34,.cappuccino35,.cappuccino36 
+{
+    width: 27%;
+    padding: 10px;
+    background-color: blanchedalmond;
+    margin-top: 25px; margin-left: 40px;
+    border-radius: 25px;
+}

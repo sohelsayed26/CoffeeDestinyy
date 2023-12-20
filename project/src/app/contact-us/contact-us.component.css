@@ -1,0 +1,26 @@
+#contact33{
+    width: 75%;
+    border: solid 1px black;
+   padding: 25px;
+   margin-left: 150px;
+   margin-top: 30px;
+   border-radius: 15px;
+}   
+
+#namr{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline:none;
+    box-shadow:none;
+}
+
+#namr:hover{
+    border: 1.5px solid darkblue;
+}
+
+span:hover{
+    color: green;
+    
+}
+

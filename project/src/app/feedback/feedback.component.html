@@ -1,0 +1,25 @@
+<h1>feedback</h1>
+
+<form ngNativeValidate #data="ngForm" (ngSubmit)="save(data)">
+        <div class="form-group">
+
+          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Firstname" name="firstname" ngModel required minlength="2" maxlength="10">
+          <br>    
+
+          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Lastname" name="lastname"  ngModel required >
+          <br>    
+          
+          <input type="email" class="form-control"  id="exampleInputEmail1" placeholder="Enter email" name="email" ngModel required>
+         <br> 
+
+         <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Number" name="number" ngModel required>
+         <br>           
+
+         <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+       
+      </form>
+
+
+      <!-- <h1>{{firstname}}  {{lastname}}  {{email}}   {{number}}</h1> -->
+      <!-- <p>{{msg.message}}</p> -->
